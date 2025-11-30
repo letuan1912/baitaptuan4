@@ -1,16 +1,46 @@
-# baitapflutter4
+# Bài Tập Flutter Tuần 4
 
-A new Flutter project.
+Repo này lưu lại bài tập Flutter tuần 4 theo yêu cầu môn học.  
+Project gồm 5 bài, mỗi bài được đặt trong thư mục lib/pages.
 
-## Getting Started
+## 1. ListView
+- Tạo danh sách cuộn các tên.
+- Mỗi mục có avatar và tiêu đề.
 
-This project is a starting point for a Flutter application.
+## 2. GridView
+- Sử dụng GridView.count và GridView.extent.
+- Hiển thị 12 phần tử cho mỗi loại grid.
+- Có khoảng cách và tỉ lệ khung theo yêu cầu.
 
-A few resources to get you started if this is your first Flutter project:
+## 3. Shared Preferences
+- Nhập tên và lưu vào bộ nhớ.
+- Hiển thị lại tên đã lưu.
+- Có nút xóa dữ liệu.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 4. Async
+- Hiển thị thông báo "Loading user..."
+- Sau 3 giây đổi thành "User loaded successfully!".
+- Có thêm hiệu ứng tải và nút bắt đầu.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 5. Isolate
+- Tính giai thừa lớn (ví dụ: 30.000!).
+- Dùng compute để xử lý nặng mà không treo giao diện.
+- Có thanh tiến trình và khu vực hiển thị kết quả.
+
+## Cấu trúc thư mục
+
+lib/
+  main.dart  
+  pages/  
+    list_view_page.dart  
+    grid_view_page.dart  
+    shared_pref_page.dart  
+    async_page.dart  
+    isolate_page.dart  
+
+## Cách chạy project
+- Mở bằng Android Studio.
+- Chọn thiết bị Android hoặc emulator.
+- Chạy lệnh:
+flutter pub get
+flutter run
